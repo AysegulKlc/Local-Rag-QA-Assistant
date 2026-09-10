@@ -1,0 +1,259 @@
+Artificial Intelligence / Machine Learning Explained
+Yazar: Steve Blank, Stanford Gordian Knot Center for National Security Innovation
+
+Yapay Zeka, Bir Kerelik Ticari ve Savunma Alanında Oyun Değiştirici
+
+Yapay zeka (AI) ve makine öğrenmesi (ML) şirketlerine yüzlerce milyar
+dolarlık kamu ve özel sermaye yatırılıyor. 2021'de dosyalanan patent
+sayısı 2015'e göre 30 kattan fazla artmış durumda; şirketler ve ülkeler
+AI ve ML'nin büyük bir bozucu güç olacağını ve askeri güç dengesini
+değiştirebileceğini fark etti.
+
+Savunma Bakanlığı (DoD) yapay zekayı o kadar temel bir teknoloji seti
+olarak gördü ki JAIC adında özel bir organizasyon kurdu; bu organizasyon
+DoD kullanıcılarının AI hızlandırmalı projelerini başarıyla geliştirip
+konuşlandırması için altyapı, araçlar ve teknik uzmanlık sağlıyor.
+
+Temel Tanımlar
+
+AI/ML - Artificial Intelligence/Machine Learning için kısaltma.
+
+Yapay Zeka (AI) - geleneksel olarak insanların yaptığı problem çözme,
+karar verme/önerme ve görevleri yerine getirebilen "akıllı makineler"i
+tanımlamak için kullanılan şemsiye bir terim. AI tek bir şey değil,
+farklı teknolojilerden oluşan bir takımyıldızdır.
+
+Makine Öğrenmesi (ML) - yapay zekanın bir alt alanı. İnsanlar veriyi
+algoritmalarla birleştirerek o veriyi kullanan bir model eğitir. Bu
+eğitilmiş model, yeni veri üzerinde tahminler yapabilir (bu resim kedi
+mi, köpek mi, insan mı?) veya karar verme süreçleri gerçekleştirebilir
+(metin ve görüntüleri anlamak gibi), açıkça programlanmadan.
+
+Makine öğrenmesi algoritmaları - daha fazla veriye maruz kaldıkça daha
+iyi performans göstermek için kendini ayarlayan bilgisayar programları.
+"Öğrenme" kısmı, bu programların veriyi zaman içinde nasıl işlediğini
+değiştirmesi anlamına gelir.
+
+Derin Öğrenme/Sinir Ağları - makine öğrenmesinin bir alt alanı. Sinir
+ağları derin öğrenmenin omurgasını oluşturur ("derin" kelimesi bir sinir
+ağındaki katman derinliğine atıfta bulunur). Sinir ağları görüntü
+sınıflandırma, konuşma tanıma gibi çeşitli görevlerde etkilidir. Bir
+derin öğrenme sinir ağı algoritmasına devasa miktarda veri ve
+gerçekleştirmesi için bir görev (sınıflandırma gibi) verilir.
+
+Veri Bilimi - veri sistemlerini ve bu setlerden anlam çıkarmayı
+kapsayan yeni bir bilgisayar bilimi alanı. AI bağlamında, makine
+öğrenmesi yapan insanların pratiğidir.
+
+Veri Bilimciler - işletmelerin karar vermesine yardımcı olacak
+içgörüler çıkarmaktan sorumlu kişiler. Müşteriler, süreçler, riskler
+hakkında modeller oluşturmak için makine öğrenmesi platformlarını
+kullanarak veriyi keşfeder ve analiz ederler.
+
+Neden Şimdi Makine Öğrenmesi Mümkün?
+
+Klasik Bilgisayarlar - Programlama
+Klasik bilgisayarlar, bir insanın açıkça söylediği her şeyi yapacak
+şekilde tasarlanmıştır. Programcılar, bir uygulamanın belirli bir sonuç
+verebilmesi için gereken tüm kuralları, mantığı ve bilgiyi önceden
+düşünerek yazılım kodu (programlama) yazar. Bu kurallar bir yazılım
+dili (Python, JavaScript, C#, Rust vb.) kullanılarak açıkça koda
+dökülür.
+
+Makine Öğrenmesi
+Klasik bilgisayarların sabit kurallarla programlanmasının aksine,
+makine öğrenmesi tam da adı gibidir - bir bilgisayara çok sayıda örnek
+vererek "örnekle öğrenmesini" sağlayabiliriz. (Görüntüler için genel
+kural, bir makine öğrenmesi algoritmasının iyi performans gösteren bir
+AI modeli üretmesi için her kategoriden en az 5.000 etiketli örneğe
+ihtiyaç duymasıdır.) Eğitildikten sonra bilgisayar kendi başına çalışır
+ve tahminler ve/veya karmaşık kararlar verebilir.
+
+Geleneksel programlamanın üç adımı olduğu gibi - önce bir programı
+kodlama, sonra derleme, sonra çalıştırma - makine öğrenmesinin de üç
+adımı vardır: eğitim (öğretme), budama ve çıkarım (kendi başına tahmin
+etme).
+
+Makine Öğrenmesi - Eğitim
+Klasik bilgisayarları açık kurallarla programlamanın aksine, eğitim bir
+bilgisayara bir görevi (yüz tanıma, sinyal tanıma, metin anlama gibi)
+"öğretme" sürecidir. İnsanlar büyük miktarda "eğitim verisi" sağlar
+(ne kadar çok veri, modelin performansı o kadar iyi olur) ve en iyi
+optimize edilmiş sonucu bulmak için uygun algoritmayı seçer.
+
+Önemli bir noktayı tekrar vurgulamak gerekirse: Algoritmalar eğitim
+verisiyle birleşerek - dışarıdan insan programcılar değil - AI'nın
+kullandığı kuralları oluşturur.
+
+Makine Öğrenmesi - Çıkarım (Inference) Aşaması
+Sistem eğitildikten sonra diğer cihazlara kopyalanabilir ve
+çalıştırılabilir. Ve hesaplama donanımı artık modelin daha önce hiç
+görmediği yeni veriler üzerinde çıkarımlar (tahminler) yapabilir.
+Çıkarım, veriye yakın olan kenar (edge) cihazlarda bile
+gerçekleşebilir; bu, ağ bant genişliği sorunlarını azaltır ve gecikme
+sorunlarını ortadan kaldırır.
+
+Makine Öğrenmesi Nasıl Mümkün Oldu - Dört Değişiklik
+
+1. Devasa Veri Setleri
+Makine öğrenmesi algoritmaları, yüksek performanslı AI modelleri
+üretmek için büyük miktarda eğitim verisi gerektirir. (OpenAI'nin
+175 milyar parametreli GPT-3 Doğal Dil Modelini eğitmek 1.024 Nvidia
+A100 GPU ile bir aydan fazla sürüyor.) Bugün stratejik ve taktik
+sensörler, görüntü, sinyal ve diğer verilerden oluşan bir sel akıtıyor.
+
+2. Gelişmiş Makine Öğrenmesi Algoritmaları
+İlk makine öğrenmesi algoritmaları onlarca yıllık, ama araştırmacılar
+alanın sınırlarını büyük ölçüde hızlandıran yeni algoritmalar keşfetti.
+
+3. Açık Kaynak Kod, Önceden Eğitilmiş Modeller ve Çerçeveler
+Daha önce, makine öğrenmesi sistemleri geliştirmek çoğu organizasyon
+için erişilemez olan uzmanlık ve özel yazılım geliştirme gerektiriyordu.
+Şimdi açık kaynak kod kütüphaneleri ve geliştirici araçları,
+organizasyonların dış toplulukların çalışmalarını kullanıp üzerine
+inşa etmesine izin veriyor.
+
+4. Daha Fazla Hesaplama Gücü
+Makine öğrenmesi sistemleri çok fazla hesaplama gücü gerektirir.
+Bugün, ticari Grafik İşleme Birimlerini (GPU) kullanarak devasa veri
+setleri üzerinde makine öğrenmesi algoritmalarını çalıştırmak mümkün.
+
+Makine Öğrenmesi Ne Yapabilir?
+
+Metin/Doğal Dil İşleme Tanıma ve Anlama
+AI, SuperGLUE ve SQuAD gibi temel okuma anlama kıyaslamalarında
+insanlardan daha iyi performans gösteriyor. Uygulamalar: GPT-3, M6,
+OPT-175B, Google Translate, Gmail Otomatik Tamamlama, Chatbot'lar,
+Metin özetleme.
+
+İnsan Benzeri Cevaplar Yazma ve Bilgisayar Kodu Yazmaya Yardım
+Bir AI, insan tarafından yazılandan ayırt edilemeyen orijinal metin
+yazabilir. Örnek: GPT-3, veya bilgisayar kodu üretebilir. Örnek: GitHub
+Copilot.
+
+Görüntüleri ve Video Akışlarını Tanıma ve Anlama
+Bir AI gördüğünü anlayabilir. Bir görüntü veya videodaki nesneleri
+tanımlayabilir ve tespit edebilir. Yüzleri bile tanımlayabilir. Tehdit
+tespitinde kullanımı vardır - havaalanı güvenliği, bankalar, spor
+etkinlikleri. Tıpta MRI yorumlamak veya ilaç tasarlamak için kullanılır.
+
+Anomali Tespiti/Desen Değişikliklerini Tespit Etme
+Bir AI, milyonlarca farklı girdi veya işlem arasından belirli bir
+sistem için beklenen davranışlarla eşleşmeyen desenleri tanıyabilir.
+Bu uygulamalar finansal ağlara yönelik saldırı kanıtlarını, sigorta
+başvurularında veya kredi kartı alışverişlerinde dolandırıcılık
+tespitini keşfedebilir.
+
+Öneri Motorlarını Güçlendirme
+Bir AI, e-ticarette kullanıcı davranışlarına dayalı öneriler
+sağlayabilir. Örnekler: Netflix, TikTok.
+
+Ne Yapamaz?
+
+AI, dar bir hedefe odaklandığında insanlardan daha iyi birçok şey
+yapabilse de, hala yapamadığı birçok şey var. AI modelleri yalnızca
+eğitim verisinin doğruluğu ve kalitesi kadar iyidir. Kötü etiketler
+eğitim sonuçlarını olumsuz etkileyebilir.
+
+Ayrıca AI, alan dışı veriler (daha önce görmediği şeyler) tarafından
+kolayca kandırılabilir. Bu "overfitting" (aşırı öğrenme) nedeniyle
+olabilir - bir model örnek veri üzerinde çok uzun süre eğitildiğinde
+veya model çok karmaşık olduğunda, veri setindeki "gürültüyü" veya
+ilgisiz bilgiyi öğrenmeye başlayabilir. Model gürültüyü ezberleyip
+eğitim setine çok yakın uyduğunda "overfitted" hale gelir ve yeni
+veriye iyi genelleme yapamaz.
+
+Tam tersi problem "underfitting"tir - model yeterince uzun süre
+eğitilmediğinde veya girdi değişkenleri girdi ile çıktı arasında
+anlamlı bir ilişki belirlemek için yeterince önemli olmadığında ortaya
+çıkar.
+
+AI ayrıca belirsizliği/güveni tahmin etmede de zayıftır (ve kararını
+açıklamada). Kendi hedeflerini seçemez. Basit durumlar dışında bir AI
+(henüz) neden-sonuç ilişkisini veya bir şeyin neden olduğunu çözemez.
+Yaratıcı düşünemez veya sağduyu uygulayamaz.
+
+Makine Öğrenmesinin Türleri
+
+Makine öğrenmesi algoritmaları dört sınıfa ayrılır:
+1. Denetimli Öğrenme (Supervised Learning)
+2. Denetimsiz Öğrenme (Unsupervised Learning)
+3. Yarı Denetimli Öğrenme (Semi-supervised Learning)
+4. Pekiştirmeli Öğrenme (Reinforcement Learning)
+
+Denetimli Öğrenme
+Bir "denetleyici" (insan veya yazılım sistemi) eğitim veri girdilerinin
+her birini doğru ilişkili çıktısıyla doğru şekilde etiketler. Önceden
+etiketlenmiş veri yalnızca AI modelini eğitmek için kullanılan eğitim
+verisi için gereklidir. Denetimli öğrenme çok yüksek performans elde
+edebilir, ancak çok büyük, etiketlenmiş veri setleri gerektirir.
+
+Denetimli Makine Öğrenmesi - Kategoriler ve Örnekler:
+- Sınıflandırma problemleri: elmaları portakallardan ayırmak gibi
+  veriyi belirli kategorilere atamak için bir algoritma kullanır.
+- Regresyon: bağımlı ve bağımsız değişkenler arasındaki ilişkiyi
+  anlar. Satış geliri projeksiyonları gibi sayısal değerleri tahmin
+  etmek için faydalıdır.
+
+Denetimsiz Öğrenme
+Bu algoritmalar etiketlenmemiş veri setlerini analiz edip
+kümeleyebilir. İnsan müdahalesi olmadan verideki gizli desenleri
+keşfederler (bu yüzden "denetimsiz"dirler).
+
+Denetimsiz Makine Öğrenmesi - Kategoriler ve Örnekler:
+- Kümeleme (Clustering): etiketlenmemiş veriyi benzerliklerine veya
+  farklılıklarına göre gruplar. Örneğin K-means kümeleme algoritmaları
+  benzer veri noktalarını gruplara atar.
+- İlişki (Association): bir veri setindeki değişkenler arasındaki
+  ilişkileri bulur. Pazar sepeti analizi ve öneri motorları için sıkça
+  kullanılır.
+- Boyut indirgeme (Dimensionality reduction): bir veri setindeki
+  özellik (veya boyut) sayısı çok yüksek olduğunda kullanılır.
+
+Yarı Denetimli Öğrenme
+"Yarı Denetimli" algoritmalar, küçük bir etiketli veri seti ve büyük
+bir etiketlenmemiş veri seti olan uygulamalar için Denetimli ve
+Denetimsiz algoritmalardan teknikleri birleştirir. Örnek: fotoğraflar
+üzerinde eğitilmiş Üretici Çekişmeli Ağlar (GAN'lar) insan
+gözlemcilere gerçek görünen yeni fotoğraflar üretebilir (deepfake'ler).
+
+Pekiştirmeli Öğrenme
+Eğitim verisi, çevresini algılayan ve hedef odaklı eylemler
+gerçekleştiren özerk, kendi kendini yönlendiren bir AI ajanı
+tarafından toplanır. Ödüller, belirli kriterler karşılandığında AI
+ajanının aldığı girdi verileridir. Sistem, kümülatif ödül alımını
+maksimize etmek için eylemler almayı öğrenir. Pekiştirmeli AI
+insanları yenebilir - satrançta, Go'da... AlphaGo, bir Pekiştirmeli
+sistem, dünya şampiyonu seviyesinde oynamayı öğrenmek için 3 gün
+içinde kendi kendine 4.9 milyon Go oyunu oynadı.
+
+AI Yarı İletkenleri (Semiconductors)
+
+Özel AI Çipleri Neden Önemli
+Sinir ağları için özel çipler (Nvidia GPU'lar, Xilinx FPGA'lar, Google
+TPU'lar) geleneksel CPU'lardan üç nedenle daha hızlıdır: 1)
+paralelleştirme kullanırlar, 2) daha büyük bellek bant genişliğine
+sahiptirler ve 3) hızlı bellek erişimine sahiptirler.
+
+Üç tür AI Çipi vardır:
+- Grafik İşleme Birimleri (GPU'lar) - binlerce çekirdek, paralel iş
+  yükleri, makine öğrenmesinde yaygın kullanım
+- Alan Programlanabilir Kapı Dizileri (FPGA'lar) - algoritmalar için
+  iyi; sıkıştırma, video kodlama, kripto para, genomik, arama
+- Uygulamaya Özel Entegre Devreler (ASIC'ler) - özel çipler, örn.
+  Google TPU'ları
+
+Makine Öğrenmesi Boru Hattı (Pipeline)
+
+Veri bilimcilerin bir makine öğrenmesi modelini geliştirmek,
+dağıtmak ve sürdürmek için kullandığı iş akışı şu aşamalardan oluşur:
+Veri Hazırlama (Data Prep) -> Eğitim ve İnce Ayar (Train & Tune) ->
+Dağıtım ve İzleme (Deploy & Monitor) -> Çıkarım (Inference).
+
+Kaynaklar:
+- Understanding AI Technology: Greg Allen, JAIC, Department of Defense
+- AI, Machine Learning, Deep Learning Explained Simply: Jun Wu
+- The Democratization of Artificial Intelligence and Deep Learning: Databricks
+- Final Report: National Security Report on Artificial Intelligence
+- A Beginners Guide to Neural Nets and Deep Learning: Pathmind
+- IBM Cloud Learning: Overfitting

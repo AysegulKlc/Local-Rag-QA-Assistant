@@ -1,0 +1,15 @@
+Bu test dosyası, tek bir paragrafın 500 karakterlik hedef chunk
+boyutunu aştığı durumda chunking mantığının kayan pencereye (sliding
+window) düşüp düşmediğini doğrulamak için özellikle tek ve uzun bir
+paragraf olarak yazılmıştır. Paragraf içinde herhangi bir boş satır
+bulunmadığından, chunk_text fonksiyonu bu metni paragraf sınırına göre
+değil, karakter bazlı kayan pencere ile 500 karakterlik parçalara ve
+aralarında 50 karakterlik örtüşmeyle bölmek zorunda kalacaktır. Metnin
+yeterince uzun olması için aynı fikri biraz farklı cümlelerle tekrar
+etmeye devam ediyoruz: sistem, bağlamdan bağımsız olarak her zaman
+yaklaşık aynı boyutta parçalar üretmeli ve bu parçalar arasında bilgi
+kaybını önlemek amacıyla küçük bir örtüşme payı bırakmalıdır. Chunk
+sonlarında cümlelerin yarıda kesilmesi normaldir; bu, karakter bazlı
+bölmenin doğal bir sonucudur ve retrieval aşamasında top-K parça
+getirildiğinde genellikle sorun oluşturmaz çünkü örtüşen kısım bir
+sonraki parçada tekrar yer alır.

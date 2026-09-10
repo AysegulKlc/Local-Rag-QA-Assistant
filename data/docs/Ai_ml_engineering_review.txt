@@ -1,0 +1,272 @@
+Artificial Intelligence, Machine Learning, and Deep Learning Applications
+in the Engineering Fields - A Comprehensive Review
+
+Yazarlar: Haneen Darwish, Walaa Darwish, Hiba Darwish, Abdallah Darwish,
+Issa W. Alhmoud, Osamah Alshraideh, Ahmad Alzubaidi
+Sigma Journal of Engineering and Natural Sciences, Cilt 44, No. 1, 2026
+
+Özet
+
+Yapay Zeka (AI), Makine Öğrenmesi (ML) ve Derin Öğrenme (DL)
+mühendisliği dönüştürüyor, ancak farklı disiplinlerdeki spesifik
+rolleri ve aralarındaki ilişkiler genellikle belirsiz kalıyor. Bu
+makale, bu belirsizliği bu teknolojilerin uygulamalarını 14 farklı
+mühendislik alanında haritalandırarak ele alıyor. 150 hakemli
+çalışmanın sistematik incelemesi yoluyla hangi tekniklerin
+kullanıldığı, hangi araçların kullanıldığı ve elde edilen sonuçlar
+araştırıldı. Analiz, Makine Öğrenmesinin baskın güç olduğunu ortaya
+koydu - incelenen çalışmaların yaklaşık %73'ünde görünüyor.
+
+Giriş
+
+Yapay Zeka (AI), Makine Öğrenmesi (ML) ve Derin Öğrenme (DL) bugün
+günlük hayatın büyük bir bileşeni. AI, insanlar gibi düşünme ve
+hareket etme yeteneğine sahip makinelerin oluşumuyla ilgilidir. ML,
+sistemlerin doğrudan programlama gerektirmeden veriden öğrenmesini ve
+zamanla gelişmesini sağlayan bir AI dalıdır. DL, daha karmaşık
+görevlerle başa çıkmak için insan beynini model alan katmanlı sinir
+ağları kullanarak işleri bir sonraki seviyeye taşır.
+
+Yapay Zeka
+Basitçe söylemek gerekirse, AI, bilgiyi, veriyi, insan zekasını
+makinelere aktarma sürecidir. Yapay zekanın temel amacı, insan benzeri
+düşünce süreçleri ve eylemler için kapasiteye sahip özerk varlıkların
+geliştirilmesidir.
+
+ChatGPT
+OpenAI, kullanıcı tarafından sağlanan talimata dayalı anında yanıt
+verme yeteneğine sahip akıllı bir sohbet robotu olarak tanımlanan
+generatif önceden eğitilmiş bir transformer modeli olan ChatGPT'yi
+tanıttı. GPT sürekli olarak geliştiriliyor, GPT 1'den GPT 4'e kadar.
+
+Tablo: GPT-1, GPT-2, GPT-3 ve GPT-4 Karşılaştırması
+GPT-1 (2018): 512 token bağlam penceresi, ~5 GB ön eğitim verisi,
+  Book corpus ve Wikipedia kaynağı, Denetimsiz öğrenme hedefi
+GPT-2 (2019): 1024 token bağlam penceresi, 40 GB ön eğitim verisi,
+  Web metni kaynağı, Çoklu görev öğrenme hedefi
+GPT-3 (2020): 2048 token bağlam penceresi, 45 TB ön eğitim verisi,
+  Common crawl kaynağı, Bağlam içi öğrenme hedefi
+GPT-4 (2023): 8195 token bağlam penceresi, veri boyutu bilinmiyor,
+  kaynak bilinmiyor, Çoklu modlu öğrenme hedefi
+
+Makine Öğrenmesi
+
+Makine öğrenmesi (ML) alanı son yirmi yılda önemli ilerlemeler
+kaydetti; laboratuvarlarla sınırlı deneysel bir uğraştan yaygın
+ticari uygulamaya yerleşmiş pragmatik bir teknolojiye dönüştü. AI
+alanında ML, bilgisayarlı görü, konuşma tanıma, doğal dil işleme,
+robot kontrolü gibi çeşitli alanlarda işlevsel yazılım formülasyonu
+için baskın yaklaşım haline geldi.
+
+Etkili bir makine öğrenmesi modeli oluşturmak iki kritik aşama
+içerir: eğitim ve test. Eğitim aşamasında sistem etiketli veya
+etiketlenmemiş girdilerle karşı karşıya kalır. Test aşamasında sistem
+etiketlenmemiş bir girdi ile karşılaşır ve eğitimine dayanarak doğru
+çıktıyı tahmin etmesi gerekir.
+
+ML'nin Beş Ana Adımı (Yaşam Döngüsü):
+1. Veri Toplama (Data gathering)
+2. Veri Ön İşleme (Data preprocessing)
+3. Modeli Eğitme (Train model)
+4. Modeli Test Etme (Test model)
+5. Model Dağıtımı (Model deployment)
+6. Model İzleme (Model monitoring)
+
+İlk adımda gerekli veri World Bank veya Kaggle gibi kaynaklardan
+toplanır. İkinci adımda kayıp veri veya geçersiz veri işlenerek analiz
+yapılır ve veri özellik çıkarımı, özellik analizi ve veri
+görselleştirme için ön işlenir. Veri daha sonra eğitim ve test olmak
+üzere iki ana bölüme ayrılır.
+
+Denetimli Öğrenme (Supervised Learning)
+Baskın ML türü, gerçek dünyadaki pratik uygulamaları ele almak için
+öncelikle kullanılan denetimli öğrenme modelidir. Bu model, belirli
+girdi setlerine ve girdi/çıktı örnek çiftlerine dayalı sonuçlar
+tahmin eder.
+
+Denetimli öğrenmeyi çözmek için izlenen adımlar:
+1. Veri Toplama ve Hazırlama (Data Collection and preparing)
+2. Modeli Seçme (Select the model)
+3. Eğitme ve Değerlendirme (Train then evaluate the model)
+4. Tahmin Yapma (Make the prediction)
+
+İkili sınıflandırma, veriyi iki kategoriye ayırma sürecidir (0 ve 1
+olarak temsil edilir). Çok sınıflı sınıflandırma ise üç veya daha
+fazla tahmin edilebilir sınıfla ilgilenir (kanser evrelerini
+tanımlamak gibi, 0, 1, 2 olarak gösterilir).
+
+Denetimsiz Öğrenme (Unsupervised Learning)
+İkinci türde, denetimsiz öğrenme, algoritma etiketlenmemiş bir veri
+setinden öğrenir ve özellikleri otonom olarak çıkararak, birlikte
+oluşumları tanımlayarak ve altta yatan desenleri ortaya çıkararak
+veriyi anlamaya çalışır.
+
+Denetimsiz öğrenmenin ana problemlerinden biri ne kadar iyi
+çalıştığını bilmektir. Denetimli öğrenmede sonuçlar tanımlanmış
+etiketlere karşı kontrol edilebilir; denetimsiz öğrenmede doğru
+cevaplar yoktur - bu yüzden doğruluğu değerlendirmek daha zordur.
+
+Pekiştirme (Reinforcement)
+Üçüncü yaklaşım, pekiştirmeli öğrenme (RL), zaman içinde ödülleri
+maksimize etmeyi hedefleyen bir ortamda kararlar alabilen ajanlarla
+ilgilenen bir makine öğrenmesi dalıdır.
+
+Kullanılan Algoritmalar
+
+Bu makalede, makine öğrenmesi (ML) algoritmaları üç ana kategoride
+incelenmiştir: pekiştirmeli öğrenme, denetimli öğrenme ve denetimsiz
+öğrenme.
+
+Karar Ağacı (Decision Tree)
+Karar ağacı algoritması, belirli koşullar tarafından yönlendirilen
+bir dizi seçim veya karar arasında gezinmek için görsel bir rehber
+sağlar. Sınıflandırma ağacının bir alt türü olarak, örnekleri özellik
+değerlerine göre çeşitli kategorilere düzenler.
+
+Lojistik Regresyon (Logistic Regression)
+Lojistik regresyon, tahmin ve sınıflandırma için kullanılan
+istatistiksel bir tekniktir. Özellikle kategorik sonuçları tahmin
+etmede etkilidir ve hem kategorik hem de sürekli girdi değişkenleriyle
+çalışabilir. Temel amaç, belirtilen bağımsız değişkenlere dayalı bir
+olayın gerçekleşme olasılığını değerlendirmektir.
+
+Destek Vektör Sınıflandırıcısı (SVC)
+Destek Vektör Sınıflandırması (SVC), girdi verisini incelemek ve
+sınıflandırma ve regresyon faaliyetleri için desenleri tanımak için
+kullanılan önemli bir denetimli makine öğrenmesi tekniğidir. Rakam
+tanıma, el yazısı değerlendirmesi, yüz tespiti, kanser teşhisi ve
+zaman serisi tahmini gibi alanlarda yaygın olarak kullanılır.
+
+Rastgele Orman Sınıflandırıcısı (Random Forest Classifier)
+Tek karar ağaçlarıyla sıkça ortaya çıkan aşırı öğrenme (overfitting)
+riski Rastgele Orman algoritması ile azaltılır. Bu bir topluluk
+(ensemble) yöntemidir, yani aynı anda birden fazla karar ağacını
+eğitir.
+
+Derin Öğrenme (Deep Learning)
+
+Derin öğrenme (DL) kavramının uzun bir geçmişi var, ancak son yıllarda
+geniş veri setlerine erişilebilirlik ve hesaplama yeteneklerindeki
+ilerlemeler nedeniyle dönüşüm geçirdi. Sinir ağları, derin öğrenme
+için en önemli araçlardan biridir; devasa miktarda veriden öğrenmeyi
+mümkün kılar.
+
+ML ve DL sıklıkla birbirinin yerine kullanılsa da, yapay zekanın
+farklı yönleridir. ML, bilgisayarları veriden açıkça ne yapacaklarını
+söylemeden öğrenmeye programlamayı içerir. Öte yandan DL, insan beyni
+yapısını ve işlevselliğini taklit etmek için sinir ağlarını kullanan
+bir tür makine öğrenmesidir.
+
+AI, ML ve DL'nin Avantajları ve Dezavantajları
+
+AI:
+Avantajlar: AI, insan zekasını taklit etmek için makine öğrenmesi ve
+derin öğrenme dahil olmak üzere geniş bir yöntem yelpazesi içerir.
+Karmaşık karar vermeyi yönetebilir ve birçok disiplinde uygulamaları
+vardır.
+Dezavantajlar: AI sistemleri geliştirmek hesaplama açısından yoğun
+olabilir ve uzmanlaşmış uzmanlık gerektirebilir. Ayrıca katı olabilir,
+çok fazla yeniden programlama olmadan yeni durumları ele alamaz.
+
+ML:
+Avantajlar: ML algoritmaları tahminler yapmak ve görevleri otomatik
+olarak gerçekleştirmek için veri desenlerinden öğrenir. Süreçleri daha
+verimli hale getirmeye ve daha iyi kararlar bilgilendirmeye yardımcı
+olmak için çok çeşitli işletmelerde kullanılır.
+Dezavantajlar: ML modelleri eğitim aşamasında etiketli veriye bağımlıdır
+ve çok karmaşık olabilir.
+
+DL:
+Avantajlar: DL, görüntüler ve metin gibi büyük, yapılandırılmamış
+veriyi işlemede özellikle yetenekli olduğunu kanıtlamıştır. Faydalı
+özellikleri otomatik olarak öğrenme yeteneğine sahiptir, görüntü
+sınıflandırma ve doğal dil işleme gibi görevlerde üstündür.
+Dezavantajlar: Derin öğrenme modelleri eğitmek için hesaplama
+açısından pahalı olma eğilimindedir; ayrıca veri kıt olduğunda, bir
+modelin aşırı öğrenmesi kolaydır. Ayrıca bu modeller çoğunlukla "kara
+kutu"dur, bu yüzden neden karar verdiklerini yorumlamak zordur.
+
+Mühendislik Alanlarında Uygulamalar
+
+Bu araştırma, AI, ML ve DL'nin mühendislik alanlarındaki
+uygulamalarını göstermeye odaklanmıştır. İncelenen 14 mühendislik
+alanı: Otomobil Mühendisliği, Tarım Mühendisliği, Havacılık ve Uzay
+Mühendisliği, Mimarlık Mühendisliği, Biyomedikal Mühendislik, İnşaat
+Mühendisliği, Bilgisayar Mühendisliği, Kimya Mühendisliği, Elektrik
+Mühendisliği, Elektronik Mühendisliği, Çevre Mühendisliği, Endüstri
+Mühendisliği, Makine Mühendisliği ve Telekomünikasyon Mühendisliği.
+
+Otomobil Mühendisliği örnekleri: ML, araç rotalama problemlerini
+(VRP) iyileştirmek için analitik yöntemlerle birleştirilerek
+uygulandı. Lityum-İyon pil şarj durumu tahmincisi için gelişmiş
+hibrit ANFIS modeli %0.5 doğruluk elde etti. Elektrikli araç şarj
+süresini tahmin etmek için Gri Kurt Optimize edici tabanlı ML
+algoritması kullanıldı.
+
+Tarım Mühendisliği örnekleri: WEKA iş tezgahı, çeşitli ML şemaları
+kullanarak verilen bir veri seti üzerinde hızlı deneyime izin verdi.
+AI teknolojileri, yağış, sıcaklık, güneş radyasyonu ve rüzgar hızı
+gibi verileri bazı ML algoritmalarıyla birleştirerek mahsul
+sürdürülebilirliğini etkili bir şekilde tahmin edebilir.
+
+Biyomedikal Mühendislik örnekleri: KNN algoritması tıbbi görüntülerin
+segmentasyonunda ve görüntü sınıflandırmasında çok iyi doğruluk verdi.
+IoT ve DL etkin sağlık hastalığı teşhis modeli, biyomedikal sinyalleri
+kullanarak %93.452 doğrulukla kardiyovasküler hastalık varlığını
+keşfetti.
+
+İnşaat Mühendisliği örnekleri: Altı makine öğrenmesi tekniği,
+kendiliğinden sıkışan betonun basınç dayanımını tahmin etmek için
+kullanıldı (ANN, ANFIS, ELM vb.). Graf sinir ağlarına (GNN) dayalı
+Mekanik-Bilgilendirilmiş Vekil Modeller (MISM), kafes yapılarının
+deformasyonlarını standart vekillerden daha iyi tahmin etti.
+
+İstatistiksel Analiz
+
+Literatür dikkatle incelendiğinde, AI, ML ve DL tekniklerinin
+mühendisliğin birçok alanında tatmin edici sonuçlar verdiği bulundu.
+
+Mühendislik Alanlarında AI, ML ve DL Uygulama Yüzdeleri:
+ML: %73.02
+AI: %23.81
+DL: %23.81
+(Not: Bazı çalışmalar birden fazla teknik kullandığı için toplam
+%100'ü geçebilir)
+
+ML, mühendislik uygulamalarında karşılaştırıldığında en etkili teknik
+olarak öne çıkıyor. Bu belirginlik, ML algoritmalarının nispeten kolay
+uygulanabilirliğine haklı olarak atfedilebilir. ML'nin pratik faydası,
+DL ile elde edilenle benzer bir performans seviyesine, gerekli
+sofistike detaylar ve büyük miktarda hesaplama kaynağı olmadan
+ulaşabilmesidir.
+
+ML'nin araştırmacılar arasında popülerliğinin nedenleri:
+Birincisi, ML geniş alanlardan ve araştırma problemlerinden
+kullanılabilen bir dizi teknik sağlar. İkinci olarak, bu yöntemler
+uzun yıllardır geliştirilip test edildi, yani araştırmacıların artık
+zorlu görevleri ele almak için olgun bir araç kutusu var. Sağlık veya
+hukuk gibi bir modelin neden belirli kararlar aldığını anlamamızı
+gerektiren alanlarda ML, DL algoritmalarından daha iyi yorumlanabilirlik
+sağlayabilir. Ayrıca DL'ye kıyasla ML modelleri bazen daha küçük veri
+setleriyle iyi çalışabilir.
+
+Gelecek Yönelimler
+
+AI, ML ve DL mühendislik uygulamalarında gelecekteki araştırma için
+heyecan verici birkaç yön var. Önemli bir yol, AI modellerinin
+yorumlanabilirliğini ve açıklanabilirliğini geliştirmektir - mühendislik
+uygulamalarında güven ve benimsemeyi artırmak için hayati bir husus.
+Ayrıca, gerçek zamanlı işleme ve gürültülü veri gibi mühendislikle
+ilgili problemlere odaklanan yeni mimarilerin ve algoritmaların
+geliştirilmesi çok önemlidir. AI ile IoT, kenar bilişim gibi gelecek
+vaat eden teknolojiler arasındaki sinerji, merkezi olmayan ve enerji
+verimli mühendislik çözümleri getirebilir.
+
+Sonuç
+
+Bu kapsamlı çalışma, 14 farklı mühendislik disiplininde AI, ML ve DL
+tekniklerinin yaygın kullanımını ortaya koydu. Çalışmanın sonuçları,
+ML'nin en çok kullanılan teknik olduğunu, mühendislik araştırma
+alanının yaklaşık %73'ünü oluşturduğunu gösteriyor. Ayrıca birden
+fazla müdahale kullanan çalışmaların daha iyi sonuçlar elde ettiği de
+keşfedildi.

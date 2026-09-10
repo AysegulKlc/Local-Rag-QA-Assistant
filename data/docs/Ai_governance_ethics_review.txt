@@ -1,0 +1,280 @@
+Exploring the Nexus of Governance and AI Ethics: Using Systematic
+Literature Review for Future Direction
+
+Yazarlar: Maryam Ikram, Waqas Mehmood, Syed Muhammad Umer Saleem,
+Shamsiah Banu Mohamad Hanefar
+Data and Information Management, 10 (2026) 100122
+
+Özet
+
+Yapay Zeka (AI) sağlık, uzay araştırması, bankacılık ve finans gibi
+çeşitli alanlarda günlük hayatı dönüştürüyor. AI'nın hızlı gelişimi,
+potansiyel toplumsal etkilerine artan dikkat çekti ve önemli etik
+kaygılar doğurdu. Son yıllarda hükümetler, ulusal organizasyonlar ve
+uluslararası kuruluşlar çeşitli etik standartlar sundu. Bu çalışma,
+yönetişim mekanizmalarının ve AI etiğinin nasıl potansiyel
+değerlendirme ve araştırma alanlarını vurguladığını gösteren kapsamlı
+bir literatür incelemesi sunmayı amaçlıyor. Bu çalışma, Scopus
+veritabanında indekslenen, 2011'den 2024'e kadar olan ilgili
+çalışmaları incelemek için PRISMA inceleme metodolojisini ve
+meta-literatür analizini kullandı.
+
+Giriş
+
+Yapay zekadaki son gelişmeler, insan zihnininkine benzer bilişsel
+işlevleri yerine getirebilen teknolojiler üretti. Sonuç olarak, AI
+insan-teknoloji ilişkilerini daha önceki teknolojilerden daha
+etkileşimli ve akıllı destek sağlayarak değiştiriyor. AI'yı geçmiş
+teknolojilerden ayıran faktör, (yarı-)özerk çalışma kapasitesinde
+yatıyor.
+
+AI sistemleri (yarı-)özerk bir şekilde çalıştığında, kendi kendini
+yönetimdeki değişim insan ajanlardan otomatik sistemlere geçiyor. Bu
+dönüşüm, insanlar ve teknoloji arasındaki etkileşimi etkiliyor;
+dağıtım adaleti değerlendirmeleri, eşitsiz muamele, sosyal dışlanma ve
+insanlar tarafından kontrol kaybının görünen etkisinden ve AI'nın
+opaklığından kaynaklanan şeffaflık eksikliği endişeleri gibi etik
+ikilemler sunuyor.
+
+AI Etiği ve AI Yönetişimi (Governance) İlişkisi
+
+Yönetişim ve AI etiği içsel olarak bağlantılıdır: yönetişim
+girişimleri, belirlenen etik endişelere pragmatik yanıtlar olarak
+hizmet edebilirken, etik çerçeveler mevzuat ve düzenleme
+formüle etmek için kritik bir temel sağlayabilir. AI etiği teoriden
+pratiğe geçtikçe, toplumda AI'nın nasıl kullanılması gerektiğine dair
+gerçek kurallar ve standartlar şekillendirdikçe, daha esnek,
+insan-merkezli yönetişim biçimleriyle uyum sağlamaya başlıyor.
+
+AI Yönetişimi için Kavramsallaştırmalar
+
+Butcher ve Beridze (2019), küresel yönetişimi inceledi ve
+mekanizmaların önemini vurguladı; AI etiği için yönetişimin çeşitli
+çözümler ve yöntemleri kapsadığını iddia etti. AI gelişimini, uygulamalarını,
+ilgili araştırmaları, teknolojik ilerlemeyi ve yasal uygulamayı
+şekillendiren etik amaçlı yaklaşımlara dikkat çekildi.
+
+Aliman ve Kester (2019), teknik odaklı bir bakış açısı kullandı. Etik
+ve sosyal normları vurguladılar, AI etiği yönetişiminin toplumun etik
+taleplerini önceliklendirdiğini, özellikle AI uygulamalarının insan
+değerleri tarafından yönlendirildiğinden emin olmakta iddia ettiler.
+
+Al Zadjali (2020), AI etik yönetişiminde hükümet katılımının önemini
+vurguladı, bunun hükümet kuruluşlarının değer hizalaması ve
+performans izleme gibi faaliyetler yoluyla tüm paydaşlara fayda
+yaratma yeteneğini içerdiğini belirtti.
+
+Perry ve Uuk (2019), AI etiği yönetişiminin, insanlar tarafından
+AI gelişiminin en etkili ilerlemesiyle ilgili olduğunu, üç ana
+bileşeni kapsadığını iddia ediyor: teknik manzara (AI'nın kapsamı ve
+sınırlamaları), optimal yönetişim (paydaş işbirliğini teşvik etmenin
+olası yolları) ve AI politik yönleri.
+
+AI Düzenlemesinin Nedenleri
+
+1956'daki başlangıcından bu yana, AI çeşitli kavramlarla ilişkilendirildi
+- insan bilişsel yetenekleri ve akılcılığa dayalı çalışan sistemler
+olarak özetlenebilir. AI teknolojisiyle bağlantılı isimlerin yelpazesi
+de geniştir: örneğin, akıllı sistemler, akıllı algoritmalar, AI
+ajanları, akıllı ajanlar ve otonom sistemler.
+
+Olumsuz etkiler arasında önyargılar, ayrımcılık, gizlilik ihlalleri,
+yanlış pozitifler, yanlış negatifler ve özerkliğin aşınması yer alır.
+Diğer sonuçlar fiziksel, finansal ve psikolojik hasarları, kontrol
+kaybını, sorumluluğu belirlemede zorluğu, insan haklarının aşınmasını,
+işsizliği, hatalı yargıyı ve para ve gücün yoğunlaşmasını içerir.
+
+AI Düzenlemesi İçin En Etkili Yaklaşım Nedir?
+
+Kural olarak, insanların davranışlarını aynı kurallara uyacak şekilde
+değiştirmekten bahsederken, düzenleme (regulation) kelimesi yasal bir
+gereklilik veya resmi bir yasa anlamına gelmek için kullanılır.
+Düzenleme, oluşturulmuş standartlara ve hedeflere göre başkalarının
+eylemlerini değiştirmek için sürekli bir çabadır.
+
+Yapay zeka odaklı inovasyonun sorunu, etik ikilemlerle güçlü
+ilişkisi ve beklenmeyen sonuçların potansiyeli ile daha da
+şiddetleniyor; bu da öngörülemeyen toplumsal sonuçlara yol açabilir.
+
+Açıklanabilir Yapay Zeka (XAI - Explainable Artificial Intelligence)
+çerçevesi, açık veri gibi, netliği ve anlaşılabilirliği artıran
+kodlama modelleri geliştirmek için kurallar sunuyor.
+
+Metodoloji
+
+Bu çalışmanın uygulanması, Sistematik İncelemeler ve Meta-Analizler
+için Tercih Edilen Raporlama Öğeleri (PRISMA) protokollerini takip
+eden sistematik bir literatür incelemesi içeriyordu.
+
+Araştırma Sorularının Formülasyonu
+
+PICo çerçevesi bu araştırmada araştırma sorularının geliştirilmesini
+etkiledi. Bu incelemenin bağlamında, Yönetişim (Problem), AI Etiği
+(İlgi) ve gelişmiş, gelişmekte olan ve yeni ortaya çıkan ülkeler
+(Bağlam) kriterleri şu araştırma sorusunu şekillendirmede etkili oldu:
+1. Yönetişim ve AI etiği literatüründe merkezi araştırma alanları
+   nelerdir?
+2. Yönetişim ve AI etiğinin ana yönleri nelerdir?
+3. Yönetişim ve AI etiği üzerine gelecekteki araştırma soruları
+   nelerdir?
+
+Sistematik Arama Stratejisi
+
+Sistematik bir arama yapmanın prosedürü üç ana adımı içerir: çalışmaları
+belirleme, tarama ve uygunluğu değerlendirme.
+
+İlk aşamada Scopus'tan 658 yayın alındı. Tarama aşamasında sadece
+dergi tabanlı araştırma makaleleri dahil edildi, sistematik derlemeler,
+meta-analizler, inceleme makaleleri, kitaplar ve konferanslar hariç
+tutuldu. Bu kriterlere göre 429 çalışma hariç tutuldu, 229 çalışma
+kaldı. Uygunluk aşamasında, geriye kalan 229 çalışma arasında ek bir
+seçim turu yapıldı; sonunda sonraki analiz için 36 yüksek atıflı
+makale kaldı.
+
+Bulgular
+
+Dergi Kapsamı ve Kalitesi
+
+Scopus kategorizasyonuna göre, 27 makale (%45) Sosyal Bilimler
+dergilerinde, 15 makale (%25) Sanat ve Beşeri Bilimler'de, 12 makale
+(%20) İşletme, Yönetim ve Muhasebe (BMA) dergilerinde ve 6 makale
+(%10) Ekonomi, Ekonometri ve Finans dergilerinde yayınlandı.
+
+36 makaleden 29'u (%81) Scopus Q1 dergilerinde, 7'si (%19) Scopus Q2
+dergilerinde yer aldı. Scopus Q3 veya Q4 dergilerinde hiç çalışma
+bulunamadı.
+
+İncelenen Makalelerde Kullanılan Araştırma Yöntemleri
+
+Makalelerin çoğu (32 makale) nitel yaklaşımlar kullanırken, bir
+makale nicel bir yaklaşıma dayanıyor ve üç tanesi karma yöntem
+tasarımı kullanıyor. Nitel yöntemlerin baskınlığı, yönetişim ve AI
+etiğinin karmaşıklığını yansıtıyor.
+
+Coğrafi Dağılım
+
+Birleşik Krallık'ın 12 makalesi (%33) baskınlığı, iyi kurulmuş
+politika girişimleri ve sağlam bir akademik altyapı tarafından
+yönlendirilen güçlü bir kurumsal ve hükümet odaklı AI yönetişimi ve
+etiğini gösteriyor. Çin'in 5 makalesi (%14) incelenen yönetişim ve AI
+etiği literatüründeki temsilini yansıtıyor.
+
+Yönetişim ve AI Etiği Tartışması
+
+Ana Temalar:
+
+1. AI Gelişimi için Etik İlkeler ve Yönetişim
+Araştırmada belirgin bir tema, AI gelişimini ve yönetişimini
+yönlendiren etik ilkelere verilen önemdir. Floridi ve diğerleri (2018),
+insan onurunu ve gelişimini teşvik etmek için önemli etik ilkeleri
+tanımlıyor, AI yönetişiminde işbirlikçi çabaları savunuyor.
+
+2. Yönetişim ve AI'da İşbirliği ve Çok Paydaşlı Katılım
+Çalışmalar genelinde ortak bir tema, yönetişim ve AI etiğinde çeşitli
+paydaşlar arasında işbirliği ihtiyacıdır. Floridi ve diğerleri (2018)
+ve Ulnicane ve diğerleri (2021), etkili yönetişimin geliştiriciler,
+düzenleyiciler, akademi ve sivil toplumun katılımına dayandığını
+vurguluyor.
+
+3. AI Sistemleri Gizlilik, Şeffaflık ve Hesap Verebilirlik
+Gizlilik ve şeffaflık, çeşitli yazarlar tarafından vurgulanan AI
+yönetişimi ve etiğindeki tekrarlayan endişelerdir. Tsamados ve
+diğerleri (2022) ve Lysaght ve diğerleri (2019), haksız eylemleri
+önlemek ve AI karar vermede hesap verebilirliği sürdürmek için
+algoritmik şeffaflık gerekliliğini tartışıyor.
+
+4. Yönetişim ve AI'nın Küresel Standartları ve Düzenlemesi
+Araştırmada önemli bir tema, AI gelişimini ve kullanımını yönetmek
+için küresel standartların ve düzenlemelerin gerekliliğidir.
+
+5. AI'nın Etik Riskleri ve Toplumsal Etkisi
+AI sistemlerinden kaynaklanan etik endişeler, özellikle toplumsal
+etkileri, literatürde büyük endişeler olarak vurgulanıyor.
+
+6. AI'nın Sürdürülebilirlik ve Çevresel Etkisi
+Yönetişim ve AI'da ortaya çıkan başka bir tema, sürdürülebilirlik ve
+çevre üzerindeki etkisidir. Cowls ve diğerleri (2023), AI araştırma
+ve geliştirmenin önemli karbon ayak izini not ediyor.
+
+7. Yönetişim Çerçevelerini ve AI Etiğini Uygulamadaki Zorluklar
+Yönetişim ve AI'da önemli bir zorluk, etik yönergelerin ve
+çerçevelerin pratikte uygulanmasıdır.
+
+Yönetişim ve AI Etiğinin Gelecek Yönü
+
+Ana Tematik Alanlar:
+
+1. Etik AI Tasarımı ve Geliştirme
+Gelecekteki öneriler arasında baskın bir tema, etik AI tasarımı ve
+geliştirme ihtiyacıdır. Bilim insanları, AI teknolojilerinin yaşam
+döngüsü boyunca etik ilkelerin entegrasyonunu vurguluyor.
+
+2. Yönetişim AI ve Hesap Verebilirlik
+AI yönetişimi, daha iyi düzenleyici çerçeveler ve hesap verebilirlik
+önlemleri için çağrılarla önemli bir gelişim alanı olmaya devam
+ediyor. AI yönetişiminin geleceği, bilgisayar bilimcileri, sosyal
+bilimciler ve etikçiler arasında işbirliğini içeren çok disiplinli bir
+yaklaşım gerektiriyor.
+
+3. Sağlık ve Eğitimde AI
+Eğitim ve sağlık gibi sektörler genelinde AI'nın entegrasyonu, her
+alanın benzersiz zorluklarına göre uyarlanmış etik denetim
+gerektiriyor.
+
+4. Sosyal Etki ve Kapsayıcılık
+AI'nın gelecekteki gelişiminde belirgin bir tema, özellikle
+kapsayıcılık ve eşitlikle ilgili sosyal etkisidir.
+
+5. Kamu Katılımı ve Paydaş Katılımı
+Kamu katılımı, AI'nın gelecekteki yönünü şekillendirmek için başka
+bir kritik temadır.
+
+6. Sürdürülebilirlik ve Çevresel Hususlar
+AI teknolojileri daha yaygın hale geldikçe, çevresel etkileri artan
+ilgi görüyor.
+
+7. AI ve Küresel Etik Standartlar
+AI için küresel etik standartlar oluşturmak acil bir konudur.
+
+Sonuç
+
+Bu inceleme, yapay zeka etiği ve yönetişimini incelemek için çeşitli
+araştırma ortamlarını ve metodolojilerini vurgulamaktadır. 36 yüksek
+atıflı makalenin analizi, literatürdeki önemli desenleri ve boşlukları
+ortaya koyarak gelecekteki araştırmalara rehberlik edecek değerli
+içgörüler sağlıyor.
+
+Bulgular, yönetişim ve AI etiğindeki önemli eğilimleri ve zaman
+içindeki gelişimlerini vurguluyor. Analiz ayrıca, özellikle 2020'den
+sonra, yönetişim ve AI etiğinde büyüyen ve sürekli bir araştırma
+ilgisini gösteriyor. Alan güçlü bir şekilde disiplinlerarasıdır,
+çalışmalar sosyal bilimler, sanat ve beşeri bilimler, işletme ve
+ekonomi disiplinleri genelinde yayınlanmıştır.
+
+Yönetsel Etkiler
+
+Bu inceleme, yöneticiler, politika yapıcılar ve organizasyonel liderler
+için doğrudan etkileri olan yapay zekanın etik ve yönetişim
+zorluklarına değerli içgörüler sağlıyor. İlk olarak, bulgular, AI
+sistemlerinin sosyal değerlere ve yerleşik etik yönergelere uygun
+olmasını sağlamak için hükümetler, işletmeler, araştırmacılar ve halk
+dahil olmak üzere birden fazla paydaş arasında işbirliğini teşvik
+etmenin önemini vurguluyor.
+
+İkinci olarak, organizasyonlar düzenleyici ve etik endişeleri ele
+almak için tasarlanmış sağlam yönetişim yapıları geliştirmeye ve
+uygulamaya öncelik vermelidir. Bu, gelişen AI teknolojilerine uyum
+sağlayan politikalar oluşturmayı, etik standartlara uyumu sağlamayı
+ve çevresel etkileri azaltmak için sürdürülebilirlik hususlarını AI
+stratejilerine entegre etmeyi içerir.
+
+Sağlık ve finansal hizmetler gibi sektörlerde, AI zaten kritik
+kararları etkiliyor. Sağlıkta, teşhis ve tedavi planlamasını destekleyen
+araçlar, hasta güvenini korumak ve sıkı etik standartları karşılamak
+için hem şeffaf hem de güvenilir olması gereken algoritmalara
+dayanıyor.
+
+Sonuç olarak, AI sistemlerinde güven inşa etmek, benimsenmeleri ve
+genel başarıları için gereklidir. Yöneticiler, şeffaf karar verme
+prosedürlerine, AI'nın potansiyellerinin ve sınırlamalarının şeffaf
+iletişimine ve etik denetim mekanizmalarına yatırım yapmalıdır.

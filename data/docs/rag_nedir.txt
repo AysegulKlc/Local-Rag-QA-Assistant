@@ -1,0 +1,19 @@
+Retrieval-Augmented Generation (RAG), bir dil modelinin yalnızca
+eğitim verisine değil, çalışma zamanında getirilen (retrieve edilen)
+harici belgelere de dayanarak cevap üretmesini sağlayan bir tekniktir.
+
+Bu yaklaşımda önce kullanıcı sorgusu bir embedding modeline gönderilir
+ve sayısal bir vektöre dönüştürülür. Ardından bu vektör, önceden
+işlenip veritabanına kaydedilmiş doküman parçalarının (chunk)
+vektörleriyle karşılaştırılır. Cosine similarity gibi bir benzerlik
+ölçütü kullanılarak en alakalı parçalar seçilir.
+
+Son adımda, seçilen parçalar bağlam (context) olarak kullanıcı
+sorusuyla birlikte bir dil modeline gönderilir ve model bu bağlama
+dayanarak bir cevap üretir. Bu sayede model, eğitim verisinde
+bulunmayan veya güncel olmayan bilgiler hakkında da doğru cevaplar
+verebilir hale gelir.
+
+RAG sistemlerinin en büyük avantajı, modelin kendisini yeniden eğitmeye
+gerek kalmadan bilgi tabanının güncellenebilmesidir. Yeni bir doküman
+eklendiğinde sadece ingestion adımı tekrar çalıştırılır.

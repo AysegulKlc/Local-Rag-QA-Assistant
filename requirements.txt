@@ -1,0 +1,16 @@
+# Foundry Local SDK - yerel model yönetimi + chat/embedding client'ları
+# (Windows'ta WinML hızlandırması için "foundry-local-sdk-winml" alternatifi de kullanılabilir)
+foundry-local-sdk>=1.2.0
+
+# Foundry Local resmi dokümantasyonu her kurulumda openai paketiyle birlikte
+# kullanılmasını öneriyor (response tipleri OpenAI formatına uyumlu).
+openai>=1.0.0
+
+# Cosine similarity ve vektör işlemleri için
+numpy>=1.26
+
+# Aşama 2: web arayüzü
+streamlit>=1.38
+
+# Testler
+pytest>=8.0
