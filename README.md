@@ -1,4 +1,9 @@
-# MC_RAG — Offline Yerel RAG Q&A Asistanı
+# Offline Yerel RAG Q&A Asistanı
+
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B)
+![Tests](https://img.shields.io/badge/tests-29%20passing-brightgreen)
+![Offline](https://img.shields.io/badge/internet-gerekmez-lightgrey)
 
 Microsoft Foundry Local üzerinde, internet bağlantısı olmadan tamamen
 yerelde çalışan bir Retrieval-Augmented Generation (RAG) soru-cevap
@@ -7,6 +12,10 @@ asistanı.
 > Durum: ingestion, retrieval, generation, CLI, Streamlit arayüzü ve
 > pytest testleri (birim + entegrasyon) gerçek Foundry Local modelleriyle
 > çalışır durumda.
+
+**İçindekiler:** [Mimari](#mimari) · [Proje Yapısı](#proje-yapısı) ·
+[Kurulum](#kurulum) · [Kullanım](#kullanım) · [Yapılandırma](#yapılandırma) ·
+[Bilinen Sınırlamalar](#bilinen-sınırlamalar)
 
 ## Mimari
 
@@ -155,3 +164,15 @@ Tüm merkezi parametreler [src/config.py](src/config.py) içinde:
   `fileWatcherType = "none"` ayarı bu sorunu büyük ölçüde önler;
   `app_streamlit.py` ayrıca hata durumunda otomatik bir kez yeniden
   dener.
+
+## Katkıda Bulunma
+
+Bu proje şu an bireysel bir öğrenim/ders projesi olarak geliştiriliyor.
+Yine de hata bildirimi, öneri veya pull request'ler memnuniyetle
+karşılanır:
+
+1. Depoyu fork'layın.
+2. Değişikliğiniz için yeni bir branch açın (`git checkout -b ozellik/aciklama`).
+3. `python -m pytest tests/ -v` ile testlerin geçtiğinden emin olun.
+4. Pull request açın.
+
