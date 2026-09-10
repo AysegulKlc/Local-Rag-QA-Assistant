@@ -49,6 +49,8 @@ Bağlam + Soru --> Chat modeli (phi-3.5-mini, Foundry Local) --> Cevap
   döner. Çok turlu (multi-turn) sohbeti `history` parametresiyle
   destekler; fonksiyonun kendisi state tutmaz.
 - **Arayüz**: CLI (`app_cli.py`) ve Streamlit (`app_streamlit.py`).
+- <img width="955" height="500" alt="image" src="https://github.com/user-attachments/assets/2266ca5b-e5bb-473d-b8e6-d57ae7f7c6bf" />
+
 
 ## Proje Yapısı
 
