@@ -1,0 +1,5 @@
+[server]
+# Foundry Local çağrıları uzun sürebiliyor (30-40 sn); Streamlit'in dosya
+# izleme (file watcher) mekanizması bu sırada bazen isteği "Operation was
+# cancelled" hatasıyla kesiyor. Bu ayar o sorunu kalıcı olarak çözer.
+fileWatcherType = "none"
