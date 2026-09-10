@@ -54,23 +54,32 @@ Bağlam + Soru --> Chat modeli (phi-3.5-mini, Foundry Local) --> Cevap
 
 ## Proje Yapısı
 
-Bkz. [src/](src/) altındaki modüllerin başındaki docstring'ler — her
-modülün tek sorumluluğu orada açıklanır.
+Projenin genel klasör ve dosya hiyerarşisi aşağıda özetlenmiştir. Çekirdek RAG mimarisini oluşturan modüllerin detaylı teknik işleyişi için, özellikle `src/` dizinindeki kod dosyalarının başındaki açıklama (docstring) bloklarına göz atabilirsiniz.
 
 ```
-src/
-├── config.py          # merkezi konfigürasyon (tüm ayarlanabilir değerler)
-├── foundry_client.py  # Foundry Local SDK sarmalayıcısı
-├── storage.py         # SQLite depolama katmanı
-├── ingest.py          # doküman -> chunk -> embedding -> SQLite
-├── retrieval.py       # sorgu -> embedding -> cosine similarity -> top-K
-└── rag.py             # retrieval + generation birleşimi (answer_query)
-
-tests/
-├── test_ingest_units.py     # chunk_text/_slide_window birim testleri
-├── test_retrieval_units.py  # cosine similarity birim testleri
-├── test_rag_units.py        # _format_context birim testleri
-└── test_rag.py               # answer_query entegrasyon testleri (gerçek model)
+├── .streamlit/
+│   └── config.toml            # Streamlit dosya izleyici (file watcher) hata önleme ayarı
+├── data/
+│   └── docs/                  # Kaynak .txt ve .md belgelerinin konulduğu dizin
+├── src/
+│   ├── __init__.py            # RAG paket tanımı
+│   ├── config.py              # Merkezi konfigürasyon (modeller, chunk boyutları, eşik değerleri)
+│   ├── foundry_client.py      # Foundry Local SDK bağlantı ve model yükleme mantığı
+│   ├── ingest.py              # Doküman okuma, chunk'lara bölme ve SQLite'a kaydetme
+│   ├── rag.py                 # Retrieval ve generation aşamalarını birleştiren ana cevaplama fonksiyonu
+│   ├── retrieval.py           # Cosine similarity ile sorguya en benzer metinleri bulma
+│   └── storage.py             # SQLite veritabanı şema ve vektör okuma/yazma işlemleri
+├── tests/
+│   ├── test_ingest_units.py   # Metin parçalama (chunking) için model gerektirmeyen birim testler
+│   ├── test_rag.py            # Gerçek model ile halüsinasyon ve doğruluk entegrasyon testleri
+│   ├── test_rag_units.py      # Prompt ve bağlam formatlama birim testleri
+│   └── test_retrieval_units.py# Vektör matematiği ve cosine similarity birim testleri
+├── .gitignore                 # Sanal ortam, veritabanı ve model önbelleklerini hariç tutma kuralları
+├── app_cli.py                 # Terminal üzerinden çalışan çok turlu sohbet arayüzü
+├── app_streamlit.py           # Tarayıcı tabanlı, gecikme süresi ve kaynak gösteren görsel arayüz
+├── conftest.py                # Pytest'in modülleri doğru yoldan bulabilmesi için yapılandırma
+├── README.md                  # Projenin mimari dokümantasyonu ve kullanım talimatları
+└── requirements.txt           # Projenin çalışması için gereken bağımlılıkların (Streamlit, Foundry, vb.) listesi
 ```
 
 ## Kurulum
