@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Foundry Local model cache (indirilen modeller - GB seviyesinde, repoya girmemeli)
+foundry_local_data/
+
+# SQLite veritabanı (yerel veri, repoya girmemeli)
+db/*.db
+db/*.sqlite3
+!db/.gitkeep
+
+# Kullanıcı dokümanları (kişisel/özel içerik olabilir)
+data/docs/*
+!data/docs/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# Ortam değişkenleri
+.env
+
+# Editör/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
